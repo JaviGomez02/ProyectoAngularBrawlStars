@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myFirstApp';
+  contador : number=10;
+  base: number=5;
+
+  agregate(value:number){
+    this.contador+=value;
+  }
+
+
+
 }
